@@ -1,4 +1,29 @@
+/* Element selector */
 p{
     color: white;
     background-color: brown;
+}
+/* id selector */
+#mypara{
+    color: orange;  
+}
+/* group element selector */
+span,div{
+    color: wheat;
+    background-color: black;
+}
+/* class selector */
+.myparagraph{
+    color: red;
+    background-color: gray;
+}
+#myDev{
+    color: aqua;
+    background-color: darkolivegreen;
+}
+.paraBorder{
+    border: 2px solid purple;
+}
+.back{
+    background-color: wheat;
 }
