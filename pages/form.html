@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+       <h2>Form submission</h2>
+    <form action="backend.php">
+            <div>
+                <label for="rollnumber"> Roll number :</label>
+                <input type="text" name="myRollNumer" id="rollnumber">
+            </div>
+            <br>
+            <div>
+                Name: <input type="text" name="myName">
+            </div>
+            <br>
+            <div>
+                Email:<input type="email" name="myEmail">
+            </div>
+            <br> 
+            <div>
+                Bounus:<input type="number" name="myBounus">
+            </div>
+            <br>
+            <div>
+                Date:<input type="date" name="todayDate" id="">
+            </div>
+           
+            <br>
+            <div>Gender:
+                Male<input type="radio" name="gender" >
+                Female<input type="radio" name="gender" >
+                other<input type="radio" name="gender" >
+            </div>
+            <br>
+            <div>
+                <label for="mynationality">Nationality</label>
+                <select name="Nationality" id="mynationality">
+                  <option value="pk" selected>Pakistan</option>
+                  <option value="ind">India</option>
+                  <option value="af">Afghanistan</option>
+                </select>
+            </div>
+            <br>
+            <div>
+             About yourself: <br> <textarea name="myText"  cols="90" rows="15"></textarea>
+            </div>
+            
+            <div>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum ratione totam, cumque voluptas adipisci aliquam error, est harum, asperiores consequatur alias magni voluptates rerum minus! Earum culpa consequuntur harum obcaecati adipisci, laudantium ullam, est, quod rem molestiae labore? Dolorem sit tempora dolores libero repudiandae aut rerum qui, adipisci quibusdam doloremque!
+                </p>
+             
+                
+                    Understood Terms&Condition:<input type="checkbox" name="mycheck" >
+                
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+     
+
+    </form>
+</body>
+
+</html>
