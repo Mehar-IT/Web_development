@@ -1,0 +1,26 @@
+*{
+    /* * is universal selector for all elements  */
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    color: black;
+    background-color: rgb(63, 174, 226);
+    margin: 20px;
+    /* margin: 10px,20px,10px,20px; */
+    padding: 20px;
+    /* padding: 10px,20px,10px,20px; */
+    border: 2px solid blue;
+    /* width: 1000px; */
+    border-radius: 13px;
+    border-color:red blue green purple;
+    
+}
+
+body{
+    background-color: aqua;
+    /* background-image: url("/html/images/random.png"); */  
+}
+
+
