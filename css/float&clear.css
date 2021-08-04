@@ -1,0 +1,47 @@
+/* *{
+    box-sizing: border-box;
+} */
+.container{
+    margin: 13px auto; 
+    background-color: rgb(151, 110, 163);
+    width: 900px;
+    border: 2px solid brown;
+    
+}
+.item{
+    background-color: rgb(100, 226, 100);
+    border: 2px solid green;
+    padding: 12px 3px;
+    margin: 12px 3px;
+    
+}
+#computer{
+    width: 48%;
+    float: left;
+}
+#mobile{
+    width: 48%;
+    float:left;
+}
+#laptop{ 
+    clear: both;
+}
+#macbook{ 
+    clear: both;
+}
+h1{
+    width: 40%;
+    margin: auto;   
+}
+p{
+    font-family: 'MonteCarlo', cursive;
+    font-weight: bold;
+}
+.headingFont{
+    font-family: 'Butcherman', cursive;
+}
+body{
+    background-color: aqua;
+}
+    
+
