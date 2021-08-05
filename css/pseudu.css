@@ -1,0 +1,37 @@
+.container{
+   background-color: rgb(178, 248, 225);
+   border: 3px solid cornflowerblue;
+   margin: 20px auto;
+   padding: 10px;
+   width: 50%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(39, 17, 17);
+    background-color: rgb(24, 172, 68);
+}
+a:visited{
+    color: red;
+    background-color: rgb(178, 216, 140);
+  
+}
+a:active{
+    color: darkcyan;
+    background-color: cornflowerblue;
+    
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 2px solid blue;
+    background-color: darkgray;
+
+}
