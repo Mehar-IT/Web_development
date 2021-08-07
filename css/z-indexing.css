@@ -1,0 +1,37 @@
+#box1{
+    background-color:  blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 10px;
+    z-index: 0;
+     
+    /* z-indexing works with non_static positions greater z-index will display on front */
+}
+#box2{
+    background-color:  green;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 1;
+}
+#box3{
+    background-color:  yellow;
+    width: 100px;
+    height: 100px;
+     /* visibility: hidden;  */
+     /* it hides the element  */
+     /* display: none; */
+     /* it removes the element */
+
+}
+#box4{
+    background-color:  red;
+    width: 100px;
+    height: 100px;
+}
+#box5{
+    background-color:  cyan;
+    width: 100px;
+    height: 100px;
+}
