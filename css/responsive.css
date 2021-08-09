@@ -1,0 +1,23 @@
+.container{
+    text-align: center;
+    /* font-size: 10px; */
+    /* padding: 10px; */
+    height: 100vh;
+    /* vh and wh takes complete height and width of device */
+    width: 300wh;
+    border: 2px solid red;
+}
+/* html{
+    font-size: 5px;
+    
+} */
+.item1{
+    /* em and rem works with paraents heaight */
+    /* font-size: 10em; */
+    padding: 2em;
+    /* em inherits parent property */
+    /* font-size: 10rem; */
+   /* rem inherites html tag property */
+    /* font-size: 10px; */
+}
+
