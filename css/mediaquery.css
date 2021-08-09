@@ -1,0 +1,27 @@
+.container{
+    text-align: center;
+    font-size: 70px;
+    background-color: aqua;
+    display: none;
+}
+@media (max-width:500px) {
+    #box1{
+        display: block;
+        background-color: yellow;
+    }
+}
+@media (min-width:500px) and (max-width:1000px) {
+    #box1{
+        display: block;
+        background-color: red;
+    }
+}
+@media (min-width:1000px) {
+    #box1{
+        display: block;
+        background-color: green;
+    }
+}
+/* @media only screen and (min-width:200px) {
+ media query only for screen because there are more mediaquires   
+} */
